@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>群聊资源汇总（5月版） | 喜岳の自留地</title><meta name="description" content="群聊资源汇总（5月版）"><meta name="keywords" content="每日更新,群聊资源汇总"><meta name="author" content="银色树袋熊"><meta name="copyright" content="银色树袋熊"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://virgil-ding.github.io/posts/58895/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta property="og:type" content="article"><meta property="og:title" content="群聊资源汇总（5月版）"><meta property="og:url" content="https://virgil-ding.github.io/posts/58895/"><meta property="og:site_name" content="喜岳の自留地"><meta property="og:description" content="群聊资源汇总（5月版）"><meta property="og:image" content="https://virgil-ding.github.io/img/cover2.jpg"><meta property="article:published_time" content="2022-05-01T05:21:41.000Z"><meta property="article:modified_time" content="2022-05-02T01:53:27.589Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="prev" title="【转】每日得到（五月版）" href="https://virgil-ding.github.io/posts/48166/"><link rel="next" title="你不知道的冷知识（五月版）" href="https://virgil-ding.github.io/posts/32055/"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2ec8cb07940d05c7d53a888cc8bc7c50";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: true,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2022-05-02 09:53:27'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">8</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw far fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A3%B0%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text">声明:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0501"><span class="toc-number">2.</span> <span class="toc-text">0501</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%95%99%E8%A8%80%E6%9D%BF%E6%9A%82%E6%9C%AA%E5%81%9A%E5%A5%BD%EF%BC%8C%E7%82%B9%E8%BF%9B%E9%93%BE%E6%8E%A5%E8%BF%9B%E8%A1%8C%E7%95%99%E8%A8%80%E4%BB%A5%E5%8F%8A%E6%9F%A5%E7%9C%8B%E8%AF%84%E8%AE%BA%EF%BC%8C%E6%B7%BB%E5%8A%A0email%E5%8F%AF%E4%BB%A5%E8%8E%B7%E5%BE%97%E6%9B%B4%E5%BF%AB%E7%9A%84%E5%9B%9E%E5%A4%8D%E9%80%9F%E5%BA%A6%E3%80%82"><span class="toc-number">2.0.1.</span> <span class="toc-text">留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%82%B9%E5%87%BB%E7%95%99%E8%A8%80"><span class="toc-number">2.0.2.</span> <span class="toc-text">点击留言</span></a></li></ol></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="post-bg" id="page-header" style="background-image: url(/img/cover2.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">喜岳の自留地</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw far fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">群聊资源汇总（5月版）</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2022-05-01 13:21:41"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2022-05-01</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2022-05-02 09:53:27"><i class="fas fa-history fa-fw"></i> 更新于 2022-05-02</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0/">每日更新</a><i class="fas fa-angle-right post-meta__separator"></i><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0/%E7%BE%A4%E8%81%8A%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/">群聊资源汇总</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h2 id="声明"><a href="#声明" class="headerlink" title="声明:"></a>声明:</h2><p> <strong>1. 本站所发布的全部内容源于互联网搬运，仅限于小范围内传播学习和文献参考，请在下载后24小时内删除，其安全性问题一概不保证，若页面中内容侵犯到您的相关权益，请联系<a href="mailto:&#x34;&#53;&#x32;&#49;&#55;&#51;&#x32;&#49;&#50;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;">&#x34;&#53;&#x32;&#49;&#55;&#51;&#x32;&#49;&#50;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;</a>进行删除，收到反馈后会第一时间删除相关资源内容。</strong><br> <strong>2. 以下资源所有链接若包含第三方链接，引流号，私人号等联系方式，均与本人无关~ 望各位自行甄别。如果发现资源里有让加微信号买课程买会员之类的全部无视，谨防上当受骗！</strong></p>
+<p><strong>3. 以下资源均收集自网络，不存储在本人网盘，故链接失效无法补链，请速存~</strong></p>
+<p><strong>4.版权问题，某些资源不会在此更新，有条件可加tg频道实时更新<a target="_blank" rel="noopener" href="https://t.me/xiyue_fenxiang">https://t.me/xiyue_fenxiang</a></strong></p>
+<p><strong>或者入群交流【xiyue_prprpr】</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/virgil-ding/Picture@main/img/20220430123734.png" alt="image-20220430123733039"></p>
+<hr>
+<h2 id="0501"><a href="#0501" class="headerlink" title="0501"></a>0501</h2><blockquote>
+<p>【 日语相关 】</p>
+</blockquote>
+<p>日语N1-N3<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1C_TW-pzVZUWgKZPYrdK06A?pwd=yipu">https://pan.baidu.com/s/1C_TW-pzVZUWgKZPYrdK06A?pwd=yipu</a><br>日语N1-N2<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RZcZtrXKpzdFlB9vYAiNLA?pwd=VZ6M">https://pan.baidu.com/s/1RZcZtrXKpzdFlB9vYAiNLA?pwd=VZ6M</a><br>日语N4<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11FfaA?pwd=">https://pan.baidu.com/s/11FfaA?pwd=</a><br>日语N5<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/16kkVSq9zT6S4lCIPl5n-Xg?pwd=nn9y">https://pan.baidu.com/s/16kkVSq9zT6S4lCIPl5n-Xg?pwd=nn9y</a></p>
+<p>安宁老师的日语课<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jjG8vfUv8hAgJXNw3GH8kQ?pwd=sjjp">https://pan.baidu.com/s/1jjG8vfUv8hAgJXNw3GH8kQ?pwd=sjjp</a></p>
+<blockquote>
+<p>老画报</p>
+</blockquote>
+<p> (<a target="_blank" rel="noopener" href="http://www.laohuabao.com/">http://www.laohuabao.com/</a>) 内容丰富，有《连环画报》、《广西美术》、《故事画报》、《富春江画报》、《幽默大师》等老杂志都有，还有部分小人书！适合喜欢看连环画的朋友</p>
+<blockquote>
+<p>诗词</p>
+</blockquote>
+<p>中国诗人资料收藏馆 (<a target="_blank" rel="noopener" href="http://www.shiren.org/">http://www.shiren.org/</a>)  内容超级丰富，收藏了古今中外数万名诗人的数十万首诗歌！<br>诗词在线 (<a target="_blank" rel="noopener" href="http://www.chinapoesy.com/">http://www.chinapoesy.com/</a>)  最开放、最具影响力的诗词网站</p>
+<p>fanfou-poetry-website (<a target="_blank" rel="noopener" href="https://poetry.liuxs.pro/#%2F=">https://poetry.liuxs.pro/#%2F=</a>) 每次刷新都能获得一首随机诗词！<br>GitHub地址：<a target="_blank" rel="noopener" href="https://github.com/liuxsdev/fanfou-poetry-website">https://github.com/liuxsdev/fanfou-poetry-website</a></p>
+<blockquote>
+<p>一个科普博客</p>
+</blockquote>
+<p> (<a target="_blank" rel="noopener" href="https://jacobzuo.github.io/">https://jacobzuo.github.io/</a>)<br>作者ZUO，Wenlong。作者写的一些 科普 文和读书心得</p>
+<blockquote>
+<p>Mac软件下载</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.macwk.com/">https://www.macwk.com/</a><br><a target="_blank" rel="noopener" href="https://shottr.cc/">https://shottr.cc/</a><br><a target="_blank" rel="noopener" href="https://mactorrents.io/">https://mactorrents.io/</a><br><a target="_blank" rel="noopener" href="https://www.torrentmac.net/">https://www.torrentmac.net/</a></p>
+<blockquote>
+<p>如何学好英语？</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://jacksonwuu.github.io/blog/thinking/%E5%A6%82%E4%BD%95%E5%AD%A6%E5%A5%BD%E8%8B%B1%E8%AF%AD%EF%BC%9F/">https://jacksonwuu.github.io/blog/thinking/如何学好英语？/</a></p>
+<p>俞艾 新概念：俞敏洪艾力带你从零玩英语【完结】<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/Me9sURyfVky">https://www.aliyundrive.com/s/Me9sURyfVky</a><br>你绝对没听过的英语学习法：让你不再死背单词语法，学上瘾！（完结）<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/HEyy9rjjG4b">https://www.aliyundrive.com/s/HEyy9rjjG4b</a><br>名师帮你英语脱胎换骨：一本新概念，听说读写全解决【完结】<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/LjKgKJjeWmw">https://www.aliyundrive.com/s/LjKgKJjeWmw</a></p>
+<blockquote>
+<p>一款开源的视频硬字幕提取工具</p>
+</blockquote>
+<p>可自动生成 srt 文件，无需申请第三方 API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。<br><a target="_blank" rel="noopener" href="https://github.com/YaoFANGUK/video-subtitle-extractor">https://github.com/YaoFANGUK/video-subtitle-extractor</a></p>
+<blockquote>
+<p>【软件名称】佩奇影视（伪装名：皮皮衣柜）</p>
+</blockquote>
+<p>【软件支持】iPhone、iPad<br>【软件大小】64.37M<br>【软件价格】免费<br>【有无内购】无<br>【支持语言】简体中文<br>【软件分类】影视<br>【功能简介】一款免费的影视应用，伪装上架APP Store。<br>变身方法：<br>打开应用→点击右上角设置→点击“意见反馈”→反馈内容输入“犯我中华者虽远必诛”后点击确定→退出应用后重进即变身成功<br>【软件下载】<a target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/id1620573804">https://apps.apple.com/cn/app/id1620573804</a></p>
+<blockquote>
+<p>普通人也能成为说话高手完结</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1OwKqqdGzcA-_gaqw2p65dA">https://pan.baidu.com/s/1OwKqqdGzcA-_gaqw2p65dA</a> 提取码: 452w</p>
+<blockquote>
+<p>亲子训练营KS国际象棋课完结</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1VCNw3edeHrpzwingu0Wrrw">https://pan.baidu.com/s/1VCNw3edeHrpzwingu0Wrrw</a> 提取码: uu96</p>
+<blockquote>
+<p>热门电视剧动漫更新中</p>
+</blockquote>
+<p>「0 电视剧更新中」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/LPLVsfCPR4y">https://www.aliyundrive.com/s/LPLVsfCPR4y</a><br>「！高分狙击电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/NsYdjgDMrP2">https://www.aliyundrive.com/s/NsYdjgDMrP2</a><br>「0恐怖电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/6pPR7nQFYjd">https://www.aliyundrive.com/s/6pPR7nQFYjd</a><br>「香港老电影无删减系列合集200部<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/wxykxyNf7o4">https://www.aliyundrive.com/s/wxykxyNf7o4</a></p>
+<p>「H《黑帮少爷爱上我》2022更至04集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/wAGG5y39CZu">https://www.aliyundrive.com/s/wAGG5y39CZu</a></p>
+<p>「斗罗大陆 更206集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/m57VbRewJ1T">https://www.aliyundrive.com/s/m57VbRewJ1T</a></p>
+<p>边缘行者<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/rx6arbRWnje">https://www.aliyundrive.com/s/rx6arbRWnje</a><br>新海诚<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/93d18UDi9Nd">https://www.aliyundrive.com/s/93d18UDi9Nd</a><br>异物志4k更至22集<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/PChYkb6mZJG">https://www.aliyundrive.com/s/PChYkb6mZJG</a><br>山河月明4K更36集<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/iHxeY5K7U6M">https://www.aliyundrive.com/s/iHxeY5K7U6M</a><br>蓝焰突击 更16集<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/sChvs6o8Rm9">https://www.aliyundrive.com/s/sChvs6o8Rm9</a><br>亲爱的小孩 更新至34集<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/mjvzTBDZQBu">https://www.aliyundrive.com/s/mjvzTBDZQBu</a><br>没有工作的一年<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/k39Qd84oLjv">https://www.aliyundrive.com/s/k39Qd84oLjv</a><br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/FzS1PhukR8b">https://www.aliyundrive.com/s/FzS1PhukR8b</a><br>猪猡之王<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/Ecczimjg9UZ">https://www.aliyundrive.com/s/Ecczimjg9UZ</a><br>《卧鼠藏虫》（2022）<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/X1t7mnmQqAa">https://www.aliyundrive.com/s/X1t7mnmQqAa</a><br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/FqaBT51TfUi">https://www.aliyundrive.com/s/FqaBT51TfUi</a><br>我们的冬奥.2022.HD.4K.国语中字<br><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/tvzzKpDUt63">https://www.aliyundrive.com/s/tvzzKpDUt63</a></p>
+<blockquote>
+<p>一、电视剧大合集：</p>
+</blockquote>
+<p>1、「大陆剧合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/xoftffQdFPe">https://www.aliyundrive.com/s/xoftffQdFPe</a></p>
+<p>2、「欧美剧合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/qTW8fRDdEwb">https://www.aliyundrive.com/s/qTW8fRDdEwb</a></p>
+<p>3、「日韩剧合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/JmH2AFUentr">https://www.aliyundrive.com/s/JmH2AFUentr</a></p>
+<p>4、「港台剧合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/SAdeLAJdgvj">https://www.aliyundrive.com/s/SAdeLAJdgvj</a></p>
+<p>5、「动漫剧合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/MMrDGDipheJ">https://www.aliyundrive.com/s/MMrDGDipheJ</a></p>
+<p>6、「NSFW剧」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/zEcWv8CoEUV">https://www.aliyundrive.com/s/zEcWv8CoEUV</a></p>
+<hr>
+<blockquote>
+<p>二、电影大合集：</p>
+</blockquote>
+<p>1、「欧美电影-1」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/fwgscKCqoEv">https://www.aliyundrive.com/s/fwgscKCqoEv</a></p>
+<p>2、「欧美电影-2」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/VBEYHWufDac">https://www.aliyundrive.com/s/VBEYHWufDac</a></p>
+<p>3、「欧美电影-3」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/4KuLdMTGe5c">https://www.aliyundrive.com/s/4KuLdMTGe5c</a></p>
+<p>4、「欧美电影-4」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/gchjfWrhQeU">https://www.aliyundrive.com/s/gchjfWrhQeU</a></p>
+<p>5、「欧美电影-5」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/PceUuDe3gSn">https://www.aliyundrive.com/s/PceUuDe3gSn</a></p>
+<p>6、「欧美国英双语」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/oCGrNAhmhim">https://www.aliyundrive.com/s/oCGrNAhmhim</a></p>
+<p>7、「国产电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/QrTbupnoYtq">https://www.aliyundrive.com/s/QrTbupnoYtq</a></p>
+<p>8、「日韩印泰合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/43dYMT3jYCg">https://www.aliyundrive.com/s/43dYMT3jYCg</a></p>
+<p>9、「动漫电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/zHzz1k3yTWa">https://www.aliyundrive.com/s/zHzz1k3yTWa</a></p>
+<p>10 「电影合集4IN1」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/Wvg9r5dYW9o">https://www.aliyundrive.com/s/Wvg9r5dYW9o</a></p>
+<p>11 「无字幕(可做剪辑素材)」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/LtwZR5DuiEA">https://www.aliyundrive.com/s/LtwZR5DuiEA</a></p>
+<hr>
+<blockquote>
+<p>三、其他类型电影合集：</p>
+</blockquote>
+<p>1、「漫威电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/FFRLcW8qMpg">https://www.aliyundrive.com/s/FFRLcW8qMpg</a></p>
+<p>2、「邵氏电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/qVLks3C4emL">https://www.aliyundrive.com/s/qVLks3C4emL</a></p>
+<p>3、「恐怖电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/Jp2rpFnSDVn">https://www.aliyundrive.com/s/Jp2rpFnSDVn</a></p>
+<p>4、「豆瓣电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/xoByZrrhA9s">https://www.aliyundrive.com/s/xoByZrrhA9s</a></p>
+<p>5、「老电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/rTw8QStLCCH">https://www.aliyundrive.com/s/rTw8QStLCCH</a></p>
+<p>6、「系列电影合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/XaYBYEMyAzG">https://www.aliyundrive.com/s/XaYBYEMyAzG</a></p>
+<p>7、「2021年上映电影」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/7MFJJEcYPDc">https://www.aliyundrive.com/s/7MFJJEcYPDc</a></p>
+<hr>
+<blockquote>
+<p>四、综艺类合集：</p>
+</blockquote>
+<p>「综艺节目合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/FiTVQxDYnyH">https://www.aliyundrive.com/s/FiTVQxDYnyH</a></p>
+<hr>
+<blockquote>
+<p>五、纪录片、讲座类合集：</p>
+</blockquote>
+<p>1、「纪录片大合集一」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/pUF675Da7nD">https://www.aliyundrive.com/s/pUF675Da7nD</a></p>
+<p>2、「纪录片大合集二」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/FicmfoxoLp8">https://www.aliyundrive.com/s/FicmfoxoLp8</a></p>
+<p>3、「曾仕强合集纪念版」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/sotLk7s3BCa">https://www.aliyundrive.com/s/sotLk7s3BCa</a></p>
+<p>4、「腾飞系列历史讲座」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/mijrQhawK91">https://www.aliyundrive.com/s/mijrQhawK91</a></p>
+<p>5、「百家讲坛合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/u4svvjSMW38">https://www.aliyundrive.com/s/u4svvjSMW38</a></p>
+<hr>
+<blockquote>
+<p>六、教育类资料：</p>
+</blockquote>
+<p>1、「幼儿园资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/wUJ7NAvnWmd">https://www.aliyundrive.com/s/wUJ7NAvnWmd</a></p>
+<p>2、「小学教育资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/pEUxFw4XzaV">https://www.aliyundrive.com/s/pEUxFw4XzaV</a></p>
+<p>3、「初中教育资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/JX6UjLEWouj">https://www.aliyundrive.com/s/JX6UjLEWouj</a></p>
+<p>4、「高中教育资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/3EVzqak6K8R">https://www.aliyundrive.com/s/3EVzqak6K8R</a></p>
+<p>5、「小初高大学综合汇总」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/wnfVTd1u92T">https://www.aliyundrive.com/s/wnfVTd1u92T</a></p>
+<p>6、「大学生资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/vWUXSKJvaqX">https://www.aliyundrive.com/s/vWUXSKJvaqX</a></p>
+<p>7、「大学教材笔记合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/enEgsyievQd">https://www.aliyundrive.com/s/enEgsyievQd</a></p>
+<p>8、「播音配音声乐教程合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/kK7q7PTNwFW">https://www.aliyundrive.com/s/kK7q7PTNwFW</a></p>
+<p>9、「幼子教育类动画」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/yZoA2Nzy3Kb">https://www.aliyundrive.com/s/yZoA2Nzy3Kb</a></p>
+<hr>
+<blockquote>
+<p>七、电子书类合集：</p>
+</blockquote>
+<p>1、「书籍小说图书漫画大合集一」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/gmNYhGQPkG4">https://www.aliyundrive.com/s/gmNYhGQPkG4</a></p>
+<p>2、「书籍图书小说合集大合集二」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/k1LhvCresz9">https://www.aliyundrive.com/s/k1LhvCresz9</a> 提取码: 1234<br>(已修复！电子书很容易被标记违规资源，只修复一次。再次失效不再补链)</p>
+<hr>
+<blockquote>
+<p>八、有声书、有声读物</p>
+</blockquote>
+<p>1、「有声读物合集系列一」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/GsjcJkY7kz9">https://www.aliyundrive.com/s/GsjcJkY7kz9</a></p>
+<p>2、「有声读物合集系列二」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/RKTfq5rBTxh">https://www.aliyundrive.com/s/RKTfq5rBTxh</a></p>
+<p>3、「有声读物合集系列三」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/WCuZ9ZNqEF5">https://www.aliyundrive.com/s/WCuZ9ZNqEF5</a></p>
+<p>4、「喜M拉雅收费音频合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/TreuDecDwGE">https://www.aliyundrive.com/s/TreuDecDwGE</a></p>
+<hr>
+<blockquote>
+<p>九、自媒体类资料</p>
+</blockquote>
+<p>1、「自媒体资料合集一」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/nt3BRFbS2ai">https://www.aliyundrive.com/s/nt3BRFbS2ai</a></p>
+<p>2、「自媒体资料合集二」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/RX6gqfXqX2Q">https://www.aliyundrive.com/s/RX6gqfXqX2Q</a></p>
+<p>3、「自媒体资料合集三」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/SrtiuDwGorz">https://www.aliyundrive.com/s/SrtiuDwGorz</a></p>
+<p>4、「自媒体资料合集四」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/GiDrzgUYyMF">https://www.aliyundrive.com/s/GiDrzgUYyMF</a></p>
+<p>5、「自媒体资料合集五」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/w3tovt7D8uh">https://www.aliyundrive.com/s/w3tovt7D8uh</a></p>
+<p>6、「自媒体资料合集六」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/KFNuf65dfvM">https://www.aliyundrive.com/s/KFNuf65dfvM</a></p>
+<p>7、「网络掘金合集一」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/f5FUSv82axb">https://www.aliyundrive.com/s/f5FUSv82axb</a></p>
+<p>8、「网络掘金合集二」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/4SDspCjtahk">https://www.aliyundrive.com/s/4SDspCjtahk</a></p>
+<p>9、「自媒体引流资料合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/6z93aZNqEpW">https://www.aliyundrive.com/s/6z93aZNqEpW</a></p>
+<p>10、「播音配音教程合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/dvXHKRwRFM">https://www.aliyundrive.com/s/dvXHKRwRFM</a></p>
+<p>11、「摄影视频教程合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/3zkQdtCNw27">https://www.aliyundrive.com/s/3zkQdtCNw27</a></p>
+<hr>
+<blockquote>
+<p>九、素材、图片类合集</p>
+</blockquote>
+<p>1、「各类素材资源汇总」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/bhag6TuyWC4">https://www.aliyundrive.com/s/bhag6TuyWC4</a></p>
+<p>2、「图片类合集」<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/3VknQ8JQRJk">https://www.aliyundrive.com/s/3VknQ8JQRJk</a></p>
+<hr>
+<h4 id="留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。"><a href="#留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。" class="headerlink" title="留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。"></a>留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。</h4><h4 id="点击留言"><a href="#点击留言" class="headerlink" title="点击留言"></a><a target="_blank" rel="noopener" href="https://blog-api-mzonvj4p8-virgil-ding.vercel.app/">点击留言</a></h4></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0/">每日更新</a><a class="post-meta__tags" href="/tags/%E7%BE%A4%E8%81%8A%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/">群聊资源汇总</a></div><div class="post_share"><div class="social-share" data-image="/img/cover5.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><button class="reward-button" type="button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.jpg" alt="wechat" onclick="window.open('/img/wechat.jpg')"/><div class="post-qr-code__desc">wechat</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="alipay" onclick="window.open('/img/alipay.jpg')"/><div class="post-qr-code__desc">alipay</div></li></ul></div></button></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/48166/"><img class="prev-cover" data-src="/img/cover1.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【转】每日得到（五月版）</div></div></a></div><div class="next-post pull-right"><a href="/posts/32055/"><img class="next-cover" data-src="/img/cover3.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">你不知道的冷知识（五月版）</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/posts/29509/" title="群聊资源汇总（4月版）"><img class="relatedPosts_cover" data-src="/img/cover5.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-30</div><div class="relatedPosts_title">群聊资源汇总（4月版）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/28288/" title="【转】60秒读懂世界（五月版）"><img class="relatedPosts_cover" data-src="/img/cover5.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-01</div><div class="relatedPosts_title">【转】60秒读懂世界（五月版）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/54420/" title="【转】60秒读懂世界（四月版）"><img class="relatedPosts_cover" data-src="/img/cover3.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-30</div><div class="relatedPosts_title">【转】60秒读懂世界（四月版）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/29508/" title="【转】每日得到（四月版）"><img class="relatedPosts_cover" data-src="/img/cover3.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-30</div><div class="relatedPosts_title">【转】每日得到（四月版）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/48166/" title="【转】每日得到（五月版）"><img class="relatedPosts_cover" data-src="/img/cover1.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-01</div><div class="relatedPosts_title">【转】每日得到（五月版）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/32055/" title="你不知道的冷知识（五月版）"><img class="relatedPosts_cover" data-src="/img/cover3.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-30</div><div class="relatedPosts_title">你不知道的冷知识（五月版）</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">V</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">a</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="V"></div><div class="comments-items-2" data-name="a"></div><div class="comments-items-3" data-name="l"></div><div class="comments-items-4" data-name="i"></div><div class="comments-items-5" data-name="n"></div><div class="comments-items-6" data-name="e"></div><div class="comments-items-7" data-name=" "></div><div class="comments-items-8" data-name="/"></div><div class="comments-items-9" data-name=" "></div><div class="comments-items-10" data-name="D"></div><div class="comments-items-11" data-name="i"></div><div class="comments-items-12" data-name="s"></div><div class="comments-items-13" data-name="q"></div><div class="comments-items-14" data-name="u"></div><div class="comments-items-15" data-name="s"></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 银色树袋熊</div><div class="framework-info"><span>驱动 </span><a target="_blank" rel="noopener" href="https://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div></div><head><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></head></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/search/local-search.js"></script><script src="/js/calendar.js"></script><script src="/js/languages.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":120,"height":260},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>
