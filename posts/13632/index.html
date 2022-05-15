@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件] | 喜岳の自留地</title><meta name="description" content="声明: 1. 本站所发布的全部内容源于互联网搬运，仅限于小范围内传播学习和文献参考，请在下载后24小时内删除，其安全性问题一概不保证，若页面中内容侵犯到您的相关权益，请联系&amp;#x34;&amp;#x35;&amp;#50;&amp;#x31;&amp;#55;&amp;#x33;&amp;#50;&amp;#x31;&amp;#x32;&amp;#64;&amp;#113;&amp;#113;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;进行删除，收到反馈后会第一时间删除相关资源内容。"><meta name="keywords" content="课程列表,职业技能,程序开发"><meta name="author" content="银色树袋熊"><meta name="copyright" content="银色树袋熊"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://virgil-ding.github.io/posts/13632/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta property="og:type" content="article"><meta property="og:title" content="高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件]"><meta property="og:url" content="https://virgil-ding.github.io/posts/13632/"><meta property="og:site_name" content="喜岳の自留地"><meta property="og:description" content="声明: 1. 本站所发布的全部内容源于互联网搬运，仅限于小范围内传播学习和文献参考，请在下载后24小时内删除，其安全性问题一概不保证，若页面中内容侵犯到您的相关权益，请联系&amp;#x34;&amp;#x35;&amp;#50;&amp;#x31;&amp;#55;&amp;#x33;&amp;#50;&amp;#x31;&amp;#x32;&amp;#64;&amp;#113;&amp;#113;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;进行删除，收到反馈后会第一时间删除相关资源内容。"><meta property="og:image" content="https://virgil-ding.github.io/img/cover3.png"><meta property="article:published_time" content="2022-05-15T05:21:41.000Z"><meta property="article:modified_time" content="2022-05-15T04:15:16.640Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="prev" title="迟清子 极速瘦身小班课系统培训 [视频] [课件]" href="https://virgil-ding.github.io/posts/30276/"><link rel="next" title="游戏合集" href="https://virgil-ding.github.io/posts/11555/"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2ec8cb07940d05c7d53a888cc8bc7c50";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: true,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2022-05-15 12:15:16'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">22</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">22</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">22</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%95%99%E7%A8%8B%E6%8A%80%E5%B7%A7/"><i class="fa-fw fa fa-heartbeat"></i><span> 教程技巧</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0/"><i class="fa-fw fa fa-archive"></i><span> 每日更新</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%BD%91%E5%9D%80%E5%A4%A7%E5%85%A8/"><i class="fa-fw fas fa-list"></i><span> 网址大全</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/"><i class="fa-fw fas fa-book"></i><span> 书籍分享</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/"><i class="fa-fw fa fa-film"></i><span> 课程列表</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A3%B0%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text">声明:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%AB%98%E4%BF%8A%E5%B3%B0%E3%80%8A%E5%A4%A7%E6%95%B0%E6%8D%AE%E8%BF%90%E7%BB%B4%E5%AE%9E%E6%88%98%E3%80%8B%E7%BB%99%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E8%BF%90%E7%BB%B4%E4%BF%AE%E7%82%BC%E6%89%8B%E5%86%8C-%E8%A7%86%E9%A2%91-%E8%AF%BE%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件]</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95"><span class="toc-number">2.1.</span> <span class="toc-text">课程目录</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%95%99%E8%A8%80%E6%9D%BF%E6%9A%82%E6%9C%AA%E5%81%9A%E5%A5%BD%EF%BC%8C%E7%82%B9%E8%BF%9B%E9%93%BE%E6%8E%A5%E8%BF%9B%E8%A1%8C%E7%95%99%E8%A8%80%E4%BB%A5%E5%8F%8A%E6%9F%A5%E7%9C%8B%E8%AF%84%E8%AE%BA%EF%BC%8C%E6%B7%BB%E5%8A%A0email%E5%8F%AF%E4%BB%A5%E8%8E%B7%E5%BE%97%E6%9B%B4%E5%BF%AB%E7%9A%84%E5%9B%9E%E5%A4%8D%E9%80%9F%E5%BA%A6%E3%80%82"><span class="toc-number">2.1.1.</span> <span class="toc-text">留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%82%B9%E5%87%BB%E7%95%99%E8%A8%80"><span class="toc-number">2.1.2.</span> <span class="toc-text">点击留言</span></a></li></ol></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="post-bg" id="page-header" style="background-image: url(/img/cover3.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">喜岳の自留地</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%95%99%E7%A8%8B%E6%8A%80%E5%B7%A7/"><i class="fa-fw fa fa-heartbeat"></i><span> 教程技巧</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0/"><i class="fa-fw fa fa-archive"></i><span> 每日更新</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%BD%91%E5%9D%80%E5%A4%A7%E5%85%A8/"><i class="fa-fw fas fa-list"></i><span> 网址大全</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/"><i class="fa-fw fas fa-book"></i><span> 书籍分享</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/"><i class="fa-fw fa fa-film"></i><span> 课程列表</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件]</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2022-05-15 13:21:41"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2022-05-15</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2022-05-15 12:15:16"><i class="fas fa-history fa-fw"></i> 更新于 2022-05-15</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/">课程列表</a><i class="fas fa-angle-right post-meta__separator"></i><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/%E8%81%8C%E4%B8%9A%E6%8A%80%E8%83%BD/">职业技能</a><i class="fas fa-angle-right post-meta__separator"></i><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/%E8%81%8C%E4%B8%9A%E6%8A%80%E8%83%BD/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/">程序开发</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h2 id="声明"><a href="#声明" class="headerlink" title="声明:"></a>声明:</h2><p> <strong>1. 本站所发布的全部内容源于互联网搬运，仅限于小范围内传播学习和文献参考，请在下载后24小时内删除，其安全性问题一概不保证，若页面中内容侵犯到您的相关权益，请联系<a href="mailto:&#x34;&#x35;&#50;&#x31;&#55;&#x33;&#50;&#x31;&#x32;&#64;&#113;&#113;&#46;&#99;&#111;&#x6d;">&#x34;&#x35;&#50;&#x31;&#55;&#x33;&#50;&#x31;&#x32;&#64;&#113;&#113;&#46;&#99;&#111;&#x6d;</a>进行删除，收到反馈后会第一时间删除相关资源内容。</strong><br> <strong>2. 以下资源所有链接若包含第三方链接，引流号，私人号等联系方式，均与本人无关~ 望各位自行甄别。如果发现资源里有让加微信号买课程买会员之类的全部无视，谨防上当受骗！</strong></p>
+<p><strong>3. 以下资源均收集自网络，不存储在本人网盘，故链接失效无法补链，请速存~</strong></p>
+<p><strong>4.版权问题，某些资源不会在此更新，有条件可加tg频道实时更新<a target="_blank" rel="noopener" href="https://t.me/xiyue_fenxiang">https://t.me/xiyue_fenxiang</a></strong></p>
+<p><strong>或者扫码进群交流</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/virgil-ding/Picture@main/img/20220514183630.png" alt="image-20220514183621946"></p>
+<hr>
+<h2 id="高俊峰《大数据运维实战》给大数据工程师的运维修炼手册-视频-课件"><a href="#高俊峰《大数据运维实战》给大数据工程师的运维修炼手册-视频-课件" class="headerlink" title="高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件]"></a>高俊峰《大数据运维实战》给大数据工程师的运维修炼手册 [视频] [课件]</h2><p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/virgil-ding/Picture@main/img/20220515121413.png" alt="image-20220515121412185"></p>
+<p>大数据运维课程，本课程共6.92GB</p>
+<p>大数据在这个互联网时代的重要意义，已经无需再多赘述。阿里、腾讯、美团等几乎你听过名字的公司，都有自己的大数据平台。</p>
+<p>过去我们都关注大数据开发，随着大数据平台的逐渐完善，如何保障数据的安全、高效，如何保证系统架构的平稳运行，都成为各数据平台的“心病”。</p>
+<p>于是，大数据运维这个岗位一跃成为大数据领域的热词。很多公司会让开发来兼大数据运维的工作，这对开发人员来说也是不小的挑战。</p>
+<p>相比大数据开发，大数据运维方向需要更多的经验积累，比如什么架构才能支撑这个数据量、什么资源配置才能满足分析需求，这需要你实际接触过、操作过才能给出答案，而不是靠理论或者猜测。</p>
+<p>专栏共七大模块， 26 个课时，引用大量大数据运维的实战案例，来讲述大数据平台的架构设计与部署、大数据平台的监控告警、性能调优，涵盖了大数据运维工作的全方位技能点。</p>
+<h3 id="课程目录"><a href="#课程目录" class="headerlink" title="课程目录"></a>课程目录</h3><p>[3075] 开篇词：掌握大数据，把握未来.md</p>
+<p>[3076] 第01讲：大话 Hadoop 生态圈.md</p>
+<p>[3077] 第02讲：Hadoop 发行版选型和伪分布式平台的构建.md</p>
+<p>[3078] 第03讲：自动化运维工具 Anible 在部署大数据平台下的应用（上）.md</p>
+<p>[3079] 第05讲：手动模式构建双 Namenode+Yarn 的 Hadoop 集群（上）.md</p>
+<p>[3080] 第07讲：通过 Ambari 工具自动化构建 Hadoop 大数据平台和外围应用（上）.md</p>
+<p>[3081] 第09讲：如何通过 Hivetez 与 Hadoop 的整合快速实现大数据开发（上）.md</p>
+<p>[3082] 第11讲：HDFS 组件运行机制剖析及 HDFS Shell 的使用.md</p>
+<p>[3083] 第12讲：Hadoop 分布式资源管理器 Yarn、MR 运行机制剖析.md</p>
+<p>[3084] 第13讲：Spark Standalone 模式的构建以及 Spark 与 Yarn 的整合.md</p>
+<p>[3085] 第14讲：HBae 与 Hadoop 的整合应用实践.md</p>
+<p>[3086] 第15讲：Flink Standalone、Flink on Yarn 集群构建与应用场景.md</p>
+<p>[3087] 第16讲：轻量级日志收集工具 Filebeat 应用案例.md</p>
+<p>[3088] 第17讲：日志收集、分析过滤工具 Logtah 应用实战.md</p>
+<p>[3089] 第18讲：Elaticearch 应用架构的实现与调优.md</p>
+<p>[3090] 第19讲：Kafka 应用场景、集群容量规划、架构设计应用案例.md</p>
+<p>[3091] 第20讲：日均数据量 30 亿的 Filebeat+Kafka+Mirrormaker 跨机房实时日志传送案例.md</p>
+<p>[3092] 第21讲：Filebeat+Kafka+Logtah+Elaticearch 构建可视化日志分析系统.md</p>
+<p>[3093] 第22讲：通过 Ganglia 实现对 HDFS、Yarn、Spark 运行状态监控.md</p>
+<p>[3094] 第23讲：Namenode、Datanode、Nodemanager 等服务状态监控策略.md</p>
+<p>[3095] 第24讲：通过 Kafka Eagle 实现对 Kafka 消息队列的监控.md</p>
+<p>[3096] 第25讲：Yarn 资源调度 Fair Schedule 与 Capacity Scheduler 配置选型.md</p>
+<p>[3097] 第26讲：HDFS 存储权限 ACL 控制策略以及与系统权限整合应用.md</p>
+<p>[3098] 第27讲：Yarn、HDFS、Kafka 内存调优策略以及性能瓶颈.md</p>
+<p>[3099] 第28讲：Hadoop 平台常见故障汇总以及操作系统性能调优.md</p>
+<p>[3100] 第29讲：大数据平台的硬件规划、网络调优、架构设计、节点规划.md</p>
+<p>[3101] 第30讲：Hadoop 跨集群数据迁移应用实践.md</p>
+<p>[3163] 第04讲：自动化运维工具 Anible 在部署大数据平台下的应用（下）.md</p>
+<p>[3208] 第06讲：手动模式构建双 Namenode+Yarn 的 Hadoop 集群（下）.md</p>
+<p>[3337] 第08讲：通过 Ambari 工具自动化构建 Hadoop 大数据平台和外围应用（下）.md</p>
+<p>[3338] 第10讲：如何通过 Hivetez 与 Hadoop 的整合快速实现大数据开发（下）.md</p>
+<p>[4445] 结语：大数据运维，大有作为.md</p>
+<p>文档</p>
+<p>[3075] 开篇词：掌握大数据，把握未来.mp4</p>
+<p>[3076] 第01讲：大话 Hadoop 生态圈.mp4</p>
+<p>[3077] 第02讲：Hadoop 发行版选型和伪分布式平台的构建.mp4</p>
+<p>[3078] 第03讲：自动化运维工具 Anible 在部署大数据平台下的应用（上）.mp4</p>
+<p>[3079] 第05讲：手动模式构建双 Namenode+Yarn 的 Hadoop 集群（上）.mp4</p>
+<p>[3080] 第07讲：通过 Ambari 工具自动化构建 Hadoop 大数据平台和外围应用（上）.mp4</p>
+<p>[3081] 第09讲：如何通过 Hivetez 与 Hadoop 的整合快速实现大数据开发（上）.mp4</p>
+<p>[3082] 第11讲：HDFS 组件运行机制剖析及 HDFS Shell 的使用.mp4</p>
+<p>[3083] 第12讲：Hadoop 分布式资源管理器 Yarn、MR 运行机制剖析.mp4</p>
+<p>[3084] 第13讲：Spark Standalone 模式的构建以及 Spark 与 Yarn 的整合.mp4</p>
+<p>[3085] 第14讲：HBae 与 Hadoop 的整合应用实践.mp4</p>
+<p>[3086] 第15讲：Flink Standalone、Flink on Yarn 集群构建与应用场景.mp4</p>
+<p>[3087] 第16讲：轻量级日志收集工具 Filebeat 应用案例.mp4</p>
+<p>[3088] 第17讲：日志收集、分析过滤工具 Logtah 应用实战.mp4</p>
+<p>[3089] 第18讲：Elaticearch 应用架构的实现与调优.mp4</p>
+<p>[3090] 第19讲：Kafka 应用场景、集群容量规划、架构设计应用案例.mp4</p>
+<p>[3091] 第20讲：日均数据量 30 亿的 Filebeat+Kafka+Mirrormaker 跨机房实时日志传送案例.mp4</p>
+<p>[3092] 第21讲：Filebeat+Kafka+Logtah+Elaticearch 构建可视化日志分析系统.mp4</p>
+<p>[3093] 第22讲：通过 Ganglia 实现对 HDFS、Yarn、Spark 运行状态监控.mp4</p>
+<p>[3094] 第23讲：Namenode、Datanode、Nodemanager 等服务状态监控策略.mp4</p>
+<p>[3095] 第24讲：通过 Kafka Eagle 实现对 Kafka 消息队列的监控.mp4</p>
+<p>[3096] 第25讲：Yarn 资源调度 Fair Schedule 与 Capacity Scheduler 配置选型.mp4</p>
+<p>[3097] 第26讲：HDFS 存储权限 ACL 控制策略以及与系统权限整合应用.mp4</p>
+<p>[3098] 第27讲：Yarn、HDFS、Kafka 内存调优策略以及性能瓶颈.mp4</p>
+<p>[3099] 第28讲：Hadoop 平台常见故障汇总以及操作系统性能调优.mp4</p>
+<p>[3100] 第29讲：大数据平台的硬件规划、网络调优、架构设计、节点规划.mp4</p>
+<p>[3101] 第30讲：Hadoop 跨集群数据迁移应用实践.mp4</p>
+<p>[3163] 第04讲：自动化运维工具 Anible 在部署大数据平台下的应用（下）.mp4</p>
+<p>[3208] 第06讲：手动模式构建双 Namenode+Yarn 的 Hadoop 集群（下）.mp4</p>
+<p>[3337] 第08讲：通过 Ambari 工具自动化构建 Hadoop 大数据平台和外围应用（下）.mp4</p>
+<p>[3338] 第10讲：如何通过 Hivetez 与 Hadoop 的整合快速实现大数据开发（下）.mp4</p>
+<p>[4445] 结语：大数据运维，大有作为.mp4</p>
+<hr>
+<h4 id="留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。"><a href="#留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。" class="headerlink" title="留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。"></a>留言板暂未做好，点进链接进行留言以及查看评论，添加email可以获得更快的回复速度。</h4><h4 id="点击留言"><a href="#点击留言" class="headerlink" title="点击留言"></a><a target="_blank" rel="noopener" href="https://blog-api-mzonvj4p8-virgil-ding.vercel.app/">点击留言</a></h4></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8/">课程列表</a><a class="post-meta__tags" href="/tags/%E8%81%8C%E4%B8%9A%E6%8A%80%E8%83%BD/">职业技能</a><a class="post-meta__tags" href="/tags/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/">程序开发</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><button class="reward-button" type="button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.jpg" alt="wechat" onclick="window.open('/img/wechat.jpg')"/><div class="post-qr-code__desc">wechat</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="alipay" onclick="window.open('/img/alipay.jpg')"/><div class="post-qr-code__desc">alipay</div></li></ul></div></button></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/30276/"><img class="prev-cover" data-src="/img/cover1.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">迟清子 极速瘦身小班课系统培训 [视频] [课件]</div></div></a></div><div class="next-post pull-right"><a href="/posts/11555/"><img class="next-cover" data-src="/img/cover2.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">游戏合集</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/posts/61139/" title="杯子Glass超级文案课 非传统写作只讲文案传播与营养 [视频]"><img class="relatedPosts_cover" data-src="/img/cover2.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">杯子Glass超级文案课 非传统写作只讲文案传播与营养 [视频]</div></div></a></div><div class="relatedPosts_item"><a href="/posts/61140/" title="杯子Glass超级文案课 非传统写作只讲文案传播与营养 [视频]"><img class="relatedPosts_cover" data-src="/img/cover1.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">杯子Glass超级文案课 非传统写作只讲文案传播与营养 [视频]</div></div></a></div><div class="relatedPosts_item"><a href="/posts/35194/" title="tiktok shop小店带货速成班（备战全球流量）"><img class="relatedPosts_cover" data-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">tiktok shop小店带货速成班（备战全球流量）</div></div></a></div><div class="relatedPosts_item"><a href="/posts/47701/" title="巴氏徒手整形 [视频]"><img class="relatedPosts_cover" data-src="/img/cover5.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">巴氏徒手整形 [视频]</div></div></a></div><div class="relatedPosts_item"><a href="/posts/37334/" title="查理老师《编剧孵化营》从零基础到职业编剧 [视频]"><img class="relatedPosts_cover" data-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">查理老师《编剧孵化营》从零基础到职业编剧 [视频]</div></div></a></div><div class="relatedPosts_item"><a href="/posts/56389/" title="案例汇编：疼痛与康复临床病例分析 [视频]"><img class="relatedPosts_cover" data-src="/img/cover3.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2022-05-15</div><div class="relatedPosts_title">案例汇编：疼痛与康复临床病例分析 [视频]</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">V</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">a</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="V"></div><div class="comments-items-2" data-name="a"></div><div class="comments-items-3" data-name="l"></div><div class="comments-items-4" data-name="i"></div><div class="comments-items-5" data-name="n"></div><div class="comments-items-6" data-name="e"></div><div class="comments-items-7" data-name=" "></div><div class="comments-items-8" data-name="/"></div><div class="comments-items-9" data-name=" "></div><div class="comments-items-10" data-name="D"></div><div class="comments-items-11" data-name="i"></div><div class="comments-items-12" data-name="s"></div><div class="comments-items-13" data-name="q"></div><div class="comments-items-14" data-name="u"></div><div class="comments-items-15" data-name="s"></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 银色树袋熊</div><div class="framework-info"><span>驱动 </span><a target="_blank" rel="noopener" href="https://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div></div><head><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></head></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/search/local-search.js"></script><script src="/js/calendar.js"></script><script src="/js/languages.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":120,"height":260},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>
